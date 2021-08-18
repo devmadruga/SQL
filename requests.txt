@@ -1,0 +1,26 @@
+Requests criados (simulação) a partir da visualização da estrutura do BD:
+
+##
+GERENTE DE MARKETING:
+
+Qual o número de clientes abaixo de 36 anos?
+
+Qual o número de clientes entre 36 e 54 anos?
+
+Qual o número de clientes acima de 54 anos?
+
+
+##
+GERENTE DE CADEIA DE SUPRIMENTOS:
+
+Top 5 produtos mais vendidos na East region.
+
+Top 5 produtos menos vendidos na South region.
+
+
+##
+GERENTE FINANCEIRO:
+
+Perda de receita total em função dos discontos.
+
+Receita total e desconto para cada produto.
