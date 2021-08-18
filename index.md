@@ -1,13 +1,15 @@
 ## Banco de Dados de um e-commerce
 
-**SE VOCÊ DESEJA TER ACESSO AOS ARQUIVOS DE DADOS, VOCÊ OS ENCONTRA AQUI:** [customer.csv](LINK), [product.csv](LINK) e [sales.csv](LINK).
+**SE VOCÊ DESEJA FAZER O DOWNLOAD DOS ARQUIVOS DE DADOS, ACESSE: [DADOS](https://github.com/devmadruga/SQL/tree/main/e-commerce):**
+
+** Se quiser acesso rápido aos dados do BD: [customer.csv](https://github.com/devmadruga/SQL/blob/main/e-commerce/customer.csv), [product.csv](https://github.com/devmadruga/SQL/blob/main/e-commerce/product.csv) e [sales.csv](https://github.com/devmadruga/SQL/blob/main/e-commerce/sales.csv)**
+
+> O objetivo é criar algumas perguntas (e READS que gerem as respostas) com base no BD supracitado.
+
+Um Modelo Entidade Relacionamento do BD do e-commerce pode ser visto aqui:
 
 
-
-
-
-
-
+![Image](bi_call_center_todas_cidades.jpg)
 
 
 
