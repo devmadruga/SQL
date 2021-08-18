@@ -20,15 +20,11 @@ OBSERVAÇÃO: Respostas obtidas para PostgreSQL.
 > "GERENTE DE MARKETING:"
 Qual o número de clientes abaixo de 36 anos? Qual o número de clientes entre 36 e 54 anos? Qual o número de clientes acima de 54 anos?
 
-`SELECT region, CASE WHEN age > 54 THEN 'Cat 3'`
-
-`WHEN age < 36 then 'Cat 1'`
-
-`ELSE 'Cat 2' END AS age_group, COUNT(*)`
-
-`FROM customer GROUP BY region, age_group`
-
-`ORDER BY region, COUNT DESC;`
+`SELECT region, CASE WHEN age > 54 THEN 'Cat 3'  
+WHEN age < 36 then 'Cat 1'  
+ELSE 'Cat 2' END AS age_group, COUNT(*)  
+FROM customer GROUP BY region, age_group  
+ORDER BY region, COUNT DESC;`
 
 
 > GERENTE DE CADEIA DE SUPRIMENTOS:
