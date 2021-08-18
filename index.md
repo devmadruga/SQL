@@ -12,7 +12,7 @@ Criar perguntas (e READS que gerem as respostas) importantes com base no BD forn
 
 * ### Um print das tabelas contidas neste BD:
 
-![Image](https://github.com/devmadruga/SQL/blob/gh-pages/bd-ecommerce-esquema-tabelas.jpg)
+![Image](bd-ecommerce-esquema-tabelas.jpg)
 
 * ### PERGUNTAS CRIADAS:
 OBSERVAÇÃO: Respostas obtidas para PostgreSQL.
@@ -93,45 +93,16 @@ Receita total e desconto para cada produto.
 `ORDER BY ratio DESC;`
 
 
+# Banco de Dados de uma farmácia.
 
+* ### Simulação de um documento de modelagem entregue pelos Analistas de Sistemas:
 
+Uma farmácia comercializa vários tipos de produtos (remédios, cosméticos, etc). Além do tipo, para cada produto são registrados o código, designação, composição, fabricança e preço de venda. Quando um cliente compra pela primeira vez na farmácia, são registrados os seus dados (nome, endereço, telefone, código postal, localidade e cpf). Depois de cadastrado, sempre que um cliente compra um determinado produto é registrado seu código de cliente, os produtos adquiridos, o nome do médico (no caso das receitas médicas), bem como o total da venda. Cada compra é identificada por um número para facilitar as consultas à base de dados.
 
+* ### Objetivo:
 
+ANALISAR ESTE DOCUMENTO, EXTRAIR AS ENTIDADES, CAMPOS, RELACIONAMENTOS E GERAR O MODELO DE ENTIDADE E RELACIONAMENTO.
 
-## Welcome to GitHub Pages
+Crei o modelo entidade relacionamento usando o MySQL Workbench:
 
-You can use the [editor on GitHub](https://github.com/devmadruga/SQL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/devmadruga/SQL/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Image](eer_diagram_farmacia.png)
