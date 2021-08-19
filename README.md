@@ -5,7 +5,7 @@ Fiz uma GitHub Page para mostrar a produção feita com os arquivos deste reposi
 Desta forma, [AQUI](https://devmadruga.github.io/SQL/) está o link para a GitHub Page.
 
 
-Se tiveres qualquer dúvida, entre em contato
+Se tiveres qualquer dúvida, entre em contato:
 * 📫  anderson.madruga@gmail.com
 
 #### Fique bem... ❤️
